@@ -17,7 +17,7 @@ async function load(dir) {
 await load(root);
 createServer((request,response) => {
   let pathname;
-  try { pathname = new URL(request.url, 'http://localhost').pathname; }
+  try { pathname = decodeURI(new URL(request.url, 'http://localhost').pathname); }
   catch { response.writeHead(400).end('Bad request'); return; }
   const localPath = pathname.startsWith(basePath) ? pathname.slice(basePath.length - 1) : '/not-found';
   const key = localPath.endsWith('/') ? localPath + 'index.html' : extname(localPath) ? localPath : localPath + '/index.html';

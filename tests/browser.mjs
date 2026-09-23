@@ -83,6 +83,7 @@ try {
   if (!await menu.locator('summary').evaluate(el => el === document.activeElement)) problems.push({ type: 'menu-focus' });
   await menu.locator('summary').click();
   await mobile.setViewportSize({ width: 1440, height: 900 });
+  await mobile.waitForFunction(() => !document.querySelector('[data-mobile-menu]').open, null, { timeout: 1000 }).catch(() => null);
   if (await menu.evaluate(el => el.open)) problems.push({ type: 'menu-breakpoint' });
   await mobile.close();
 
@@ -117,7 +118,7 @@ try {
   const missingResponse = await missing.goto(base + '/unbekannte-seite', { waitUntil: 'domcontentloaded', timeout: 10000 });
   console.log('404 loaded');
   if (missingResponse.status() !== 404 || await missing.locator('h1').count() !== 1) problems.push({ type: '404-route', status: missingResponse.status() });
-  const recipeResponse = await missing.goto(base + RECIPE_SLUG, { waitUntil: 'domcontentloaded', timeout: 10000 });
+  const recipeResponse = await missing.goto(base + RECIPE_SLUG + '/', { waitUntil: 'domcontentloaded', timeout: 10000 });
   if (recipeResponse.status() !== 200) problems.push({ type: 'encoded-recipe-route', status: recipeResponse.status() });
   await missing.close();
   console.log('404 closed');

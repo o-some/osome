@@ -27,7 +27,7 @@ test('all required editorial routes are built', async () => {
     '/pages/uber-uns', '/pages/geschaftskunden', '/pages/private-label', '/pages/contact',
     '/pages/rezepte', '/blogs/rezepte', RECIPE_SLUG, '/policies/legal-notice', '/policies/privacy-policy'];
   for (const route of routes) {
-    const path = route === '/' ? join(dist, 'index.html') : join(dist, route.slice(1), 'index.html');
+    const path = route === '/' ? join(dist, 'index.html') : join(dist, decodeURI(route.slice(1)), 'index.html');
     assert.ok((await stat(path)).isFile(), route);
   }
   assert.ok((await stat(join(dist, '404.html'))).isFile());
@@ -55,7 +55,7 @@ test('local image and navigation targets exist; no hidden external dependencies'
     for (const [, href] of html.matchAll(/<a\b[^>]*href="([^"]+)"/g)) {
       if (href.startsWith(basePath)) {
         const target = href.split('#')[0].split('?')[0];
-        assert.ok((await stat(join(dist, target.slice(basePath.length), 'index.html'))).isFile(), `${file}: ${href}`);
+        assert.ok((await stat(join(dist, decodeURI(target.slice(basePath.length)), 'index.html'))).isFile(), `${file}: ${href}`);
       } else assert.ok(href.startsWith('mailto:') || href.startsWith('tel:') || href === SHOP_URL || legalReferences.has(href) || href.startsWith('#'), `${file}: ${href}`);
     }
     assert.doesNotMatch(html, /<script[^>]+src="https?:|<link rel="stylesheet"[^>]+href="https?:/i, file);
@@ -77,7 +77,7 @@ test('published pages have their own canonical and absolute social image', () =>
   for (const [file, html] of pages) {
     if (file.endsWith('/404.html')) continue;
     const route = file.slice(dist.length + 1).replace(/index\.html$/, '');
-    const canonical = `${publicOrigin}${basePath}${route}`;
+    const canonical = `${publicOrigin}${basePath}${encodeURI(route)}`;
     assert.ok(html.includes(`<link rel="canonical" href="${canonical}">`), file);
     assert.ok(html.includes(`<meta property="og:url" content="${canonical}">`), file);
     assert.ok(html.includes(`<meta property="og:image" content="${publicOrigin}${basePath}images/logo.png">`), file);
