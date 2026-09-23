@@ -1,0 +1,110 @@
+old_url,locale,content_type,observed_status,decision,new_url,reason,approval,test_status
+https://www.o-some.de/,de,home,sitemap_listed,preserve,/,bestehender relevanter Informationspfad,pending,NOT_RUN
+https://www.o-some.de/blogs/news,de,blogs,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/blogs/rezepte,de,blogs,sitemap_listed,preserve,/blogs/rezepte,bestehender relevanter Informationspfad,pending,NOT_RUN
+https://www.o-some.de/blogs/rezepte/heute-entfuhren-wir-dich-kulinarisch-nach-griechenland-mit-einem-echten-klassiker-moussaka-herzhaft-aromatisch-und-perfekt-geschichtet-ein-wohlfuhlgericht-das-nicht-nur-nach-sommer-sondern-auch-nach-liebe-schmeckt-%F0%9F%92%9B,de,blogs,sitemap_listed,preserve_review,/blogs/rezepte/heute-entfuhren-wir-dich-kulinarisch-nach-griechenland-mit-einem-echten-klassiker-moussaka-herzhaft-aromatisch-und-perfekt-geschichtet-ein-wohlfuhlgericht-das-nicht-nur-nach-sommer-sondern-auch-nach-liebe-schmeckt-%F0%9F%92%9B,Altbeitrag als gekennzeichnete Zutatenidee lokal aufgebaut; redaktionelle Freigabe vor Launch offen,pending,NOT_RUN
+https://www.o-some.de/collections/aioli,de,collections,sitemap_listed,preserve,/collections/aioli,bestehender relevanter Informationspfad,pending,NOT_RUN
+https://www.o-some.de/collections/all,de,collections,HTTP_200_checked,preserve,/collections/all,bestehender relevanter Informationspfad,pending,NOT_RUN
+https://www.o-some.de/collections/bucher,de,collections,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/collections/bundles,de,collections,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/collections/dressing,de,collections,sitemap_listed,preserve,/collections/dressing,bestehender relevanter Informationspfad,pending,NOT_RUN
+https://www.o-some.de/collections/essig,de,collections,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/collections/frontpage,de,collections,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/collections/geschenkgutscheine,de,collections,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/collections/pesto,de,collections,sitemap_listed,preserve,/collections/pesto,bestehender relevanter Informationspfad,pending,NOT_RUN
+https://www.o-some.de/collections/pfeffermuhlen,de,collections,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/en,en,home,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/blogs/news,en,blogs,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/blogs/rezepte,en,blogs,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/blogs/rezepte/heute-entfuhren-wir-dich-kulinarisch-nach-griechenland-mit-einem-echten-klassiker-moussaka-herzhaft-aromatisch-und-perfekt-geschichtet-ein-wohlfuhlgericht-das-nicht-nur-nach-sommer-sondern-auch-nach-liebe-schmeckt-%F0%9F%92%9B,en,blogs,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/collections/aioli,en,collections,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/collections/bucher,en,collections,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/collections/bundles,en,collections,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/collections/dressing,en,collections,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/collections/essig,en,collections,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/collections/frontpage,en,collections,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/collections/geschenkgutscheine,en,collections,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/collections/pesto,en,collections,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/collections/pfeffermuhlen,en,collections,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/pages/contact,en,pages,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/pages/geschaftskunden,en,pages,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/pages/preislistegrosshandel,en,pages,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/pages/private-label,en,pages,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/pages/rezepte,en,pages,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/pages/uber-uns,en,pages,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/apfelessig-mit-honig,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/basilikum-pesto-12er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/charibee-pesto-zitrone-salbei,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/elektrische-pfeffermuhle-kopie,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/geschenkgutschein,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-basilikum-pesto-12er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-chili-pesto-12er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-chili-pesto-3er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-kalamata-oliven-pesto-12er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-kalamata-oliven-pesto-6er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-pesto-3er-bundle-zitrone-salbei,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-pesto-basilikum,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-pesto-chili,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-pesto-kalamata-olive,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-pesto-kalamata-olive-3er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-pesto-rucola,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-pesto-rucola-3er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-pesto-steinpilz,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-pesto-steinpilz-3er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-pesto-steinpilz-3er-bundle-1,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-pesto-tomate,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-pesto-tomate-3er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-rucola-pesto-12er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-steinpilz-pesto-12er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-tomaten-pesto-12er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-some-taste-zitronen-salbei-pesto-12er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/o-tome-taste-chili-pesto-6er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/pesto-kann-mehr-als-pasta,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/pfeffermuhle-chiligrinder,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/rucola-pesto-12er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/steinpilz-pesto-12er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/tomaten-pesto-12er-bundle-copy,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/en/products/zitronen-salbei-pesto-12er-bundle,en,products,sitemap_listed,retire_review_required,,EN-Bestand: Inhalt und Ziel vor Domainwechsel entscheiden,pending,NOT_RUN
+https://www.o-some.de/pages/contact,de,pages,sitemap_listed,preserve,/pages/contact,bestehender relevanter Informationspfad,pending,NOT_RUN
+https://www.o-some.de/pages/geschaftskunden,de,pages,sitemap_listed,preserve,/pages/geschaftskunden,bestehender relevanter Informationspfad,pending,NOT_RUN
+https://www.o-some.de/pages/preislistegrosshandel,de,pages,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/pages/private-label,de,pages,sitemap_listed,preserve,/pages/private-label,bestehender relevanter Informationspfad,pending,NOT_RUN
+https://www.o-some.de/pages/rezepte,de,pages,sitemap_listed,preserve,/pages/rezepte,bestehender relevanter Informationspfad,pending,NOT_RUN
+https://www.o-some.de/pages/uber-uns,de,pages,sitemap_listed,preserve,/pages/uber-uns,bestehender relevanter Informationspfad,pending,NOT_RUN
+https://www.o-some.de/policies/legal-notice,de,policies,HTTP_200_checked,preserve,/policies/legal-notice,bestehender relevanter Informationspfad,pending,NOT_RUN
+https://www.o-some.de/policies/privacy-policy,de,policies,HTTP_200_checked,preserve,/policies/privacy-policy,bestehender relevanter Informationspfad,pending,NOT_RUN
+https://www.o-some.de/products/apfelessig-mit-honig,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/basilikum-pesto-12er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/charibee-pesto-zitrone-salbei,de,products,sitemap_listed,preserve_review,/products/charibee-pesto-zitrone-salbei,Produktinhalt und Bild einzeln prüfen,pending,NOT_RUN
+https://www.o-some.de/products/dressing-limette-minze,de,products,HTTP_200_product_js;available_false,preserve_review,/products/dressing-limette-minze,auf Startseite verlinkt; derzeit nicht im Dressing-Katalog gelistet,pending,NOT_RUN
+https://www.o-some.de/products/dressing-zitrone-salbei,de,products,HTTP_200_product_js;available_false,preserve_review,/products/dressing-zitrone-salbei,auf Startseite verlinkt; derzeit nicht im Dressing-Katalog gelistet,pending,NOT_RUN
+https://www.o-some.de/products/elektrische-pfeffermuhle-kopie,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/geschenkgutschein,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-basilikum-pesto-12er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-chili-pesto-12er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-chili-pesto-3er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-kalamata-oliven-pesto-12er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-kalamata-oliven-pesto-6er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-pesto-3er-bundle-zitrone-salbei,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-pesto-basilikum,de,products,sitemap_listed,preserve_review,/products/o-some-taste-pesto-basilikum,Produktinhalt und Bild einzeln prüfen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-pesto-chili,de,products,sitemap_listed,preserve_review,/products/o-some-taste-pesto-chili,Produktinhalt und Bild einzeln prüfen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-pesto-kalamata-olive,de,products,sitemap_listed,preserve_review,/products/o-some-taste-pesto-kalamata-olive,Produktinhalt und Bild einzeln prüfen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-pesto-kalamata-olive-3er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-pesto-rucola,de,products,sitemap_listed,preserve_review,/products/o-some-taste-pesto-rucola,Produktinhalt und Bild einzeln prüfen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-pesto-rucola-3er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-pesto-steinpilz,de,products,sitemap_listed,preserve_review,/products/o-some-taste-pesto-steinpilz,Produktinhalt und Bild einzeln prüfen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-pesto-steinpilz-3er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-pesto-steinpilz-3er-bundle-1,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-pesto-tomate,de,products,sitemap_listed,preserve_review,/products/o-some-taste-pesto-tomate,Produktinhalt und Bild einzeln prüfen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-pesto-tomate-3er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-rucola-pesto-12er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-steinpilz-pesto-12er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-tomaten-pesto-12er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/o-some-taste-zitronen-salbei-pesto-12er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/o-tome-taste-chili-pesto-6er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/pesto-kann-mehr-als-pasta,de,products,sitemap_listed,preserve_review,/products/pesto-kann-mehr-als-pasta,Produktinhalt und Bild einzeln prüfen,pending,NOT_RUN
+https://www.o-some.de/products/pfeffermuhle-chiligrinder,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/rucola-pesto-12er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/steinpilz-pesto-12er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/tomaten-pesto-12er-bundle-copy,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN
+https://www.o-some.de/products/zitronen-salbei-pesto-12er-bundle,de,products,sitemap_listed,retire_review_required,,Altbestand/Shopbezug: sachliche Zuordnung und Betreiberentscheidung offen,pending,NOT_RUN

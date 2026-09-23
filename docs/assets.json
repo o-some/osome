@@ -1,0 +1,270 @@
+[
+  {
+    "id": "logo",
+    "role": "Brand logo",
+    "originalSource": "O-SOME internal email campaign asset",
+    "localPath": "input/originals/logo.png",
+    "rights": "owner_confirmed",
+    "rightsEvidence": "Owner confirmed O-SOME asset rights and website reuse on 2026-09-23.",
+    "sourceSha256": "b1860d9f7b0079939a4bb7d843efde4b068f16fcea17373cbff40e46325c8173",
+    "width": 400,
+    "height": 400,
+    "alt": "O-SOME TASTE logo",
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "derivatives": [
+      "public/images/logo.png",
+      "public/images/logo-wordmark.png",
+      "public/images/favicon.png"
+    ]
+  },
+  {
+    "id": "founder",
+    "role": "Portrait Eleftherios",
+    "originalSource": "O-SOME internal email campaign asset",
+    "localPath": "input/originals/founder.jpg",
+    "rights": "owner_confirmed",
+    "rightsEvidence": "Owner confirmed O-SOME asset rights and website reuse on 2026-09-23.",
+    "sourceSha256": "3f5045e3fdac9a04218d63ff118383abf4fdcf6ed203f19e983fc88276c95467",
+    "width": 750,
+    "height": 500,
+    "alt": "Eleftherios Samouladas mit O-SOME-Produkten",
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "derivatives": [
+      "public/images/founder.webp"
+    ]
+  },
+  {
+    "id": "basilikum",
+    "role": "Product packshot",
+    "originalSource": "https://www.o-some.de/products/o-some-taste-pesto-basilikum",
+    "localPath": "input/originals/basilikum.png",
+    "rights": "owner_confirmed",
+    "rightsEvidence": "Owner confirmed O-SOME asset rights and website reuse on 2026-09-23.",
+    "sourceSha256": "186dec47ba9241a76741556036edea6dff8436270d44c9c4f8967a1e7acf081c",
+    "width": 800,
+    "height": 800,
+    "alt": "O-SOME TASTE Basilikum Pesto",
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "derivatives": [
+      "public/images/basilikum.webp"
+    ]
+  },
+  {
+    "id": "zitrone",
+    "role": "Product packshot",
+    "originalSource": "https://www.o-some.de/products/charibee-pesto-zitrone-salbei",
+    "localPath": "input/originals/zitrone.png",
+    "rights": "owner_confirmed",
+    "rightsEvidence": "Owner confirmed O-SOME asset rights and website reuse on 2026-09-23.",
+    "sourceSha256": "8e2ec592fa3a8060dc770e899641e8ffa4d5c88282ad8a5291daf34f9c040f22",
+    "width": 800,
+    "height": 800,
+    "alt": "O-SOME TASTE Zitrone-Salbei Pesto",
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "derivatives": [
+      "public/images/zitrone.webp"
+    ]
+  },
+  {
+    "id": "steinpilz",
+    "role": "Product packshot",
+    "originalSource": "https://www.o-some.de/products/o-some-taste-pesto-steinpilz",
+    "localPath": "input/originals/steinpilz.png",
+    "rights": "owner_confirmed",
+    "rightsEvidence": "Owner confirmed O-SOME asset rights and website reuse on 2026-09-23.",
+    "sourceSha256": "98f7fa0e5a7329830b7fa87b4b4d47d6810e8caa182cd3be691d911d9c2e4b9a",
+    "width": 800,
+    "height": 800,
+    "alt": "O-SOME TASTE Steinpilz Pesto",
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "derivatives": [
+      "public/images/steinpilz.webp"
+    ]
+  },
+  {
+    "id": "tomate",
+    "role": "Product packshot",
+    "originalSource": "https://www.o-some.de/products/o-some-taste-pesto-tomate",
+    "localPath": "input/originals/tomate.png",
+    "rights": "owner_confirmed",
+    "rightsEvidence": "Owner confirmed O-SOME asset rights and website reuse on 2026-09-23.",
+    "sourceSha256": "c1a3dea840031d5772590249d9bb33cd77bdebb95d7a64e2e1dc652eb5c41363",
+    "width": 800,
+    "height": 800,
+    "alt": "O-SOME TASTE Tomate Pesto",
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "derivatives": [
+      "public/images/tomate.webp"
+    ]
+  },
+  {
+    "id": "kalamata",
+    "role": "Product packshot",
+    "originalSource": "https://www.o-some.de/products/o-some-taste-pesto-kalamata-olive",
+    "localPath": "input/originals/kalamata.png",
+    "rights": "owner_confirmed",
+    "rightsEvidence": "Owner confirmed O-SOME asset rights and website reuse on 2026-09-23.",
+    "sourceSha256": "671fa09266ecc977f4d72bb6d76ecedf58f5dd0a04fc7840dacaa964ffb26cd1",
+    "width": 800,
+    "height": 800,
+    "alt": "O-SOME TASTE Kalamata-Olive Pesto",
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "derivatives": [
+      "public/images/kalamata.webp"
+    ]
+  },
+  {
+    "id": "rucola",
+    "role": "Product packshot",
+    "originalSource": "https://www.o-some.de/products/o-some-taste-pesto-rucola",
+    "localPath": "input/originals/rucola.png",
+    "rights": "owner_confirmed",
+    "rightsEvidence": "Owner confirmed O-SOME asset rights and website reuse on 2026-09-23.",
+    "sourceSha256": "fc6998058183b8447fa58e63ff1bc7d4102c61b6f6e62f538aa26de90784e98f",
+    "width": 800,
+    "height": 800,
+    "alt": "O-SOME TASTE Rucola Pesto",
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "derivatives": [
+      "public/images/rucola.webp"
+    ]
+  },
+  {
+    "id": "chili",
+    "role": "Product packshot with award graphic",
+    "originalSource": "https://www.o-some.de/products/o-some-taste-pesto-chili",
+    "localPath": "input/originals/chili-live.png",
+    "rights": "owner_confirmed",
+    "rightsEvidence": "Owner confirmed O-SOME asset rights and website reuse on 2026-09-23. Existing O-SOME packshot includes a REWE/Food Camp graphic; separate mark permission was not independently documented.",
+    "sourceSha256": "d2c06c3f21a33c9e72e5e74b0e4a4e106578fdbb75b1ba93d830ec7329b9fc81",
+    "width": 800,
+    "height": 800,
+    "alt": "O-SOME TASTE Chili Pesto",
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "derivatives": [
+      "public/images/chili-live.webp"
+    ]
+  },
+  {
+    "id": "dressing-zitrone",
+    "role": "Archive packshot",
+    "originalSource": "https://www.o-some.de/products/dressing-zitrone-salbei",
+    "localPath": "input/originals/dressing-zitrone-2.png",
+    "rights": "owner_confirmed",
+    "rightsEvidence": "Owner confirmed O-SOME asset rights and website reuse on 2026-09-23.",
+    "sourceSha256": "2f98d80ddce7f6474dbc7b8a265f45b2a1195587b86accb8c014e85ae7c41420",
+    "width": 1147,
+    "height": 1191,
+    "alt": "O-SOME TASTE Dressing Zitrone-Salbei",
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "derivatives": [
+      "public/images/dressing-zitrone.webp"
+    ]
+  },
+  {
+    "id": "dressing-limette",
+    "role": "Archive packshot",
+    "originalSource": "https://www.o-some.de/products/dressing-limette-minze",
+    "localPath": "input/originals/dressing-limette-2.png",
+    "rights": "owner_confirmed",
+    "rightsEvidence": "Owner confirmed O-SOME asset rights and website reuse on 2026-09-23.",
+    "sourceSha256": "5406071f0d8ac5a8b11e9faea659f6c08151b8b34c0d4876a6508037964310d6",
+    "width": 1147,
+    "height": 1191,
+    "alt": "O-SOME TASTE Dressing Limette-Minze",
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "derivatives": [
+      "public/images/dressing-limette.webp"
+    ]
+  },
+  {
+    "id": "food-basilikum",
+    "role": "Editorial serving image",
+    "originalSource": "https://www.o-some.de/products/o-some-taste-pesto-basilikum",
+    "localPath": "input/originals/food-basilikum.png",
+    "rights": "owner_confirmed",
+    "rightsEvidence": "Owner confirmed O-SOME asset rights and website reuse on 2026-09-23.",
+    "sourceSha256": "b8e8870889b37c451f7be9abec86fdc3737c7abfca1582d216f957a50836760b",
+    "width": 2688,
+    "height": 1792,
+    "alt": "Pasta mit Basilikum und Tomaten",
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "derivatives": [
+      "public/images/food-basilikum.webp"
+    ]
+  },
+  {
+    "id": "food-zitrone",
+    "role": "Editorial serving image",
+    "originalSource": "https://www.o-some.de/products/charibee-pesto-zitrone-salbei",
+    "localPath": "input/originals/food-zitrone.png",
+    "rights": "owner_confirmed",
+    "rightsEvidence": "Owner confirmed O-SOME asset rights and website reuse on 2026-09-23.",
+    "sourceSha256": "c87696bc0a05d975f5cfd26f8f0fa8abb76386849efb5776e51cc033b620823b",
+    "width": 2688,
+    "height": 1792,
+    "alt": "Gericht mit Zitrone und Kräutern",
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "derivatives": [
+      "public/images/food-zitrone.webp"
+    ]
+  },
+  {
+    "id": "food-steinpilz",
+    "role": "Editorial serving image",
+    "originalSource": "https://www.o-some.de/products/o-some-taste-pesto-steinpilz",
+    "localPath": "input/originals/food-steinpilz.png",
+    "rights": "owner_confirmed",
+    "rightsEvidence": "Owner confirmed O-SOME asset rights and website reuse on 2026-09-23.",
+    "sourceSha256": "f7b3a7cb341326ae64542b920d1f11acaf6c71c69771d57b0f8346d9f73ba0b8",
+    "width": 2688,
+    "height": 1792,
+    "alt": "Herzhaftes Gericht",
+    "focalPoint": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "derivatives": [
+      "public/images/food-steinpilz.webp"
+    ]
+  }
+]
