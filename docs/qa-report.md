@@ -11,6 +11,15 @@ Stand: 23.09.2026. **Status des lokalen QA-Laufs: LOCAL_PAGES_BUILD_TESTED.** De
 - Reproduzierbarkeit: `npm ci` im Dropbox-synchronisierten, ignorierten `node_modules/` scheiterte an `ENOTEMPTY` beim Entfernen einer synchronisierten Abhängigkeit. Ein sauberer `npm ci` aus demselben Lockfile in `/private/tmp/osome-ci` bestand mit 0 Audit-Befunden; die zwei direkten lokalen Testabhängigkeiten wurden danach aus dieser sauberen Installation wiederhergestellt. Dies ist ein lokaler Dropbox-Dateisystembefund, kein nachgewiesener Fehler des GitHub-Actions-Runners.
 - First-Party-JavaScript `src/motion.js`: 1.587 B roh, 650 B gzip. Keine Webfonts. `npm audit` nach Entfernen der nur für Laborläufe installierten Lighthouse-Abhängigkeit: 0 Schwachstellen (`evidence/npm-audit.json`).
 
+## GitHub Pages und Live-Nachprüfung
+
+- Repository: `https://github.com/o-some/osome`, Branch `main`; Pages-URL: `https://o-some.github.io/osome/`. Pages nutzt den manuellen Actions-Workflow, HTTPS ist erzwungen und `cname` ist `null`.
+- Nach den ersten drei Commits bestand der GitHub-Build, die erste Live-QA fand jedoch auf der langen Moussaka-Archivroute mit URL-kodiertem Emoji einen HTTP 404. Ursache: Der Build schrieb die Prozentkodierung wörtlich in den Ordnernamen. Der Build schreibt jetzt den dekodierten Ordner, während Link und Canonical kodiert bleiben. Die lokale statische und Browser-QA wurden danach wiederholt; beide bestanden. Der zweite Pages-Deploy bestätigte für die Route HTTP 200 mit und ohne abschließenden Slash.
+- Der Workflow wurde auf offizielle Node-24-Actions und `ubuntu-24.04` aktualisiert. Der für die Live-QA verwendete Run [35821413541](https://github.com/o-some/osome/actions/runs/35821413541) für Commit `08c82cd64cce8c5e324f541b01c975e9fde683ea` schloss Build und Deploy erfolgreich ab.
+- Live-Browser-QA auf der tatsächlich ausgelieferten Pages-URL: 165 Ansichten (15 Routen × elf Breiten von 320 bis 2560 px), fünf axe-core-Läufe, null Befunde. Shop-Links, Tastatur/Skip-Link, Menü, JavaScript-Ausfall, Reduced Motion, Textvergrößerung und HTTP-404 erneut geprüft. Rohdaten: `evidence/browser-qa.json` (lokal, nicht im Git-Commit). Aktuelle visuelle Live-Stichproben: `evidence/pages-home-{mobile,desktop}.png`, `evidence/pages-legal-mobile.png` und `evidence/pages-recipe-mobile.png`.
+- Zusätzliche HTTP-Prüfung: Startseite, Impressum, Datenschutz, Moussaka, CSS und Logo HTTP 200; unbekannte Route HTTP 404. Die ausgelieferte Startseite war bytegleich mit dem lokalen Build (SHA-256 `081417e0538aeca6c2213f4c4b1514b6ab92c249f87f80c269d49c2f642362c1`). Alle geprüften HTML-Seiten enthalten `noindex, nofollow`; die Rechtstexte nennen Chelonaki.
+- `www.o-some.de` blieb unverändert. Pages besitzt keine Custom Domain; die read-only DNS-Prüfung für `www.o-some.de` lieferte weiterhin `104.21.60.76` und `172.67.193.220`, keinen CNAME.
+
 ## Q01–Q40
 
 | ID | Status | Nachweis / offene Grenze |
@@ -44,18 +53,18 @@ Stand: 23.09.2026. **Status des lokalen QA-Laufs: LOCAL_PAGES_BUILD_TESTED.** De
 | Q27 | PASS | Quellprüfung: ein Motion-Observer, kein dauerhafter RAF-Loop. |
 | Q28 | PASS | Dimensionierte WebP-Bilder, Ladelogik und Größenbudget im gemessenen Build; aktuelle Dropbox-Verfügbarkeit Q06. |
 | Q29 | PASS | Aktueller `/osome/`-Produktionsbuild und fünf statische Tests erfolgreich. |
-| Q30 | PASS | Aktueller vollständiger Browserlauf ohne Page-, Konsolen-, Ressourcen- oder Drittanbieterfehler. |
+| Q30 | PASS | Nach Behebung des auf Pages gefundenen Rezept-404 vollständige lokale und öffentliche Browserläufe ohne Page-, Konsolen-, Ressourcen- oder Drittanbieterfehler. |
 | Q31 | PASS | Sechs vergleichbare kalte Lighthouse-Läufe auf dem aktuellen Pages-Build; Profile, Scores und Median oben. Keine Feldwerte behauptet. |
 | Q32 | PASS | Mobile/Desktop/Ultrawide-Screenshots geprüft, Emulation gekennzeichnet. |
 | Q33 | NOT_RUN | Kein reales iOS-Gerät und kein Xcode-Simulator (`xcrun simctl` nicht verfügbar). Safari 27 auf macOS vorhanden, aber WebDriver verweigert Sitzungen ohne die globale Einstellung „Allow remote automation“; diese wurde nicht geändert. Bildschirmaufnahme war schwarz. Mobile Prüfung erfolgte in Chrome-Emulation. Der Betreiber gab nach Offenlegung dieses Befunds am 23.09.2026 das Pages-Deployment mit „Deploy“ ausdrücklich frei. Q33 bleibt `NOT_RUN` und ist kein PASS. |
 | Q34 | PASS | Für die Pages-Projekt-URL: individuelle Titel/Descriptions, Canonicals, OG-URLs und absolute Social-Bild-URLs geprüft. `noindex` bleibt bewusst; finale Live-Domain-SEO ist separat offen. |
-| Q35 | NOT_APPLICABLE | Für die getrennte Pages-Projekt-URL bleiben die 109 Alt-URLs auf `www.o-some.de` unverändert; lokale Pages-404 geprüft. EN-/Shop-Migration und echte HTTP-301-Tests sind vor einem späteren, gesondert freizugebenden Domainwechsel offen. |
-| Q36 | PASS | HTML-`noindex` auf allen gebauten Seiten und HTTP-`X-Robots-Tag` im lokalen Previewserver; Pages muss nach Deployment separat geprüft werden. Keine Produktionsumschaltung. |
+| Q35 | NOT_APPLICABLE | Für die getrennte Pages-Projekt-URL bleiben die 109 Alt-URLs auf `www.o-some.de` unverändert; Live-404 und kodierte Moussaka-Route nach Reparatur geprüft. EN-/Shop-Migration und echte HTTP-301-Tests sind vor einem späteren, gesondert freizugebenden Domainwechsel offen. |
+| Q36 | PASS | HTML-`noindex` auf allen gebauten und live geprüften Seiten; HTTP-`X-Robots-Tag` nur im lokalen Previewserver. Keine Produktionsumschaltung der bestehenden Domain. |
 | Q37 | PASS | Statischer Code ohne Tracker/externes SDK/Schlüssel; aktueller Browserlauf beobachtete keine Drittanbieter-Requests. |
 | Q38 | PASS | Lockfile, direkte Testabhängigkeiten und finaler `npm audit`: 0 Befunde. |
 | Q39 | PASS | README dokumentiert Start, Build, Pflege und zentrale Shop-URL. |
-| Q40 | PASS | Dieser Bericht trennt lokale Tests, akzeptierten Shop-Zwischenstand und die offene reale iOS-Prüfung; Pages-/Live-Nachweis folgt gesondert. |
+| Q40 | PASS | Dieser Bericht trennt lokale und öffentliche Tests, den akzeptierten Shop-Zwischenstand und die offen gebliebene reale iOS-Prüfung; keine pauschale Vollabnahme behauptet. |
 
-## Nächster technischer Schritt
+## Offene Punkte nach Pages-Deploy
 
-Die dokumentierte reale iOS-Prüfung ist mangels Gerät/Simulator offen und bleibt `NOT_RUN`. Nach Kenntnis dieses Befunds gab der Betreiber am 23.09.2026 mit „Deploy“ die getrennte Pages-Veröffentlichung ausdrücklich frei. Lokaler Pages-Build, Funktion, Responsive, Accessibility, Motion, Inhalte und Performance wurden geprüft; Betreiber-, Rechte- und Shop-Ziel wurden bestätigt. Als Nächstes folgen kleine Commits im bestehenden Repository, Actions-Deployment und Desktop-/Mobile-Prüfung der tatsächlich ausgelieferten Pages-Version. `www.o-some.de` bleibt unverändert.
+Die reale iOS/Safari-iOS-Prüfung bleibt mangels Gerät/Simulator `NOT_RUN`; der Betreiber hat die Pages-Veröffentlichung mit Kenntnis dieser Grenze ausdrücklich freigegeben. `https://www.chelonaki.eu/shop` ist das bestätigte externe Ziel, zeigt aktuell aber noch die Studioseite; ein separater Shop wird später aufgebaut. Für das im unveränderten Chili-Packshot eingebettete REWE/Food-Camp-Zeichen liegt keine separat dokumentierte Markenfreigabe vor. Ein späterer Domainwechsel erfordert gesonderte Freigabe sowie URL-, DNS-, CNAME- und Redirect-Arbeit. `www.o-some.de` wurde nicht umgestellt.
